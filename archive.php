@@ -7,24 +7,19 @@
 
 
 <div class="row">
-	<div class="span12">
-	<?php get_template_part( '/includes/navigation' );?>
-	</div>
+	<div class="span12"><?php get_template_part( '/includes/navigation' );?></div>
 </div>
 
 
 
 
-<div class="row mt-20">
+<div class="row">
 	<div class="span9"><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; else: ?>
 		<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 		<?php endif; ?></div><!--span9-->
-	 	<div class="span3">
-	 	<?php get_template_part( '/includes/aside' );?>
 	 	
-	 	</div>
 		
 </div><!--row-->
 

@@ -42,10 +42,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <!-- Bootstrap -->
 	  <link href="<?php echo get_template_directory_uri(); ?>/resources/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	
+<!--	  	  <link href="<?php echo get_template_directory_uri(); ?>/resources/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+	-->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
 	<script src='<?php bloginfo('template_directory'); ?>/resources/js/modernizr.custom.78312.js'></script>
 	</head>
 <body <?php body_class(); ?>>
-<div class="page">
