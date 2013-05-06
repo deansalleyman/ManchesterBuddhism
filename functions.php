@@ -19,5 +19,34 @@ $classes[] = 'singular';
 }
 
 
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+
+$args = array(
+'labels' => array(
+		'name' => __( 'Quotes' ),
+		'singular_name' => __( 'Quotes' ),
+		'add_new' => 'Add New',
+		    'add_new_item' => 'Add New Quote',
+		    'edit_item' => 'Edit Quote',
+		    'new_item' => 'New Quote',
+		    'all_items' => 'All Quotes',
+		    'view_item' => 'View Quote',
+		    'search_items' => 'Search Quotes',
+		    'not_found' =>  'No Quotes found',
+		    'not_found_in_trash' => 'No Quotes found in Trash', 
+		    'parent_item_colon' => '',
+		    'menu_name' => 'Quotes'
+	),
+'public' => true,
+'has_archive' => true,
+'show_ui'=> true,
+'show_in_menu'=> true,
+'supports'=> array('title','editor','custom-fields','excerpt','post-formats' )
+);
+
+	register_post_type( 'quotes',$args);//register_post_type
+}//create_post_type
+
 
 ?>

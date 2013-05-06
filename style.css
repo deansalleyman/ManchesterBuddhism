@@ -12,3 +12,27 @@ License URI:
 
 General comments (optional).
 */
+
+
+.branding {
+    background:transparent url("resources/img/buddhism_manchester_logo.gif") no-repeat scroll right top / 100% auto ;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 9999;
+}
+
+.rightbanner .quote_list p {
+    font-size: 0.9em;
+    font-style: italic;
+}
+.rightbanner p {
+    font-size: 1em;
+    margin: 0 1em;
+}
+.rightbanner p {
+    font-size: 0.45em;
+    margin: 0 1em;
+}
+.red_text {
+    color: #D20125;
+}
