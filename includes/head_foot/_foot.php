@@ -1,7 +1,8 @@
-<footer id="colophon" role="contentinfo">
 
-	<?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>			
-	</footer><!-- #colophon -->
+<div class="row white-back"><footer id="colophon" role="contentinfo">
+		
+			<?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>			
+			</footer><!-- #colophon --></div>
 
 
 <?php wp_footer(); ?>

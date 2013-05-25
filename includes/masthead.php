@@ -1,11 +1,11 @@
 
-<div class="row ">
+<div class="row  white-back">
 	<div class="span8  branding pull-right"></div>
 	<div class="span4 logo-heading">
 <header>
-		<hgroup>
+		
 		<h1 id="site-title"><span><a rel="home" title="Diamond Way Manchester" href="http://buddhism-manchester.org/">Diamond Way Manchester</a></span></h1>
-		</hgroup>
+
 		</header>
 </div><!-- span6-->
 
@@ -13,7 +13,7 @@
 
 </div><!--row-->
 
-<div class="row">
+<div class="row white-back">
 	<div class="span8">
 	<?php
 	$carousel = new WP_Query('post_type=carousel');
@@ -60,7 +60,7 @@
 		<?php  wp_reset_postdata(); ?>
 	</div><!-- span4 -->
 </div>
-<div class="row">
+<div class="row white-back">
 	<div class="span2 pull-right">
 	<div id="social_nav"><div id="facebook_nav"><a href="https://www.facebook.com/DiamondWayBuddhismManchester" title="Facebook"></a></div><div id="googleplus_nav"><a rel="publisher" href="https://plus.google.com/110381720756032976908" title="google+"></a></div><div id="twitter_nav"><a href="https://twitter.com/DWBmanchester" title="Twitter"></a></div></div>
 	
